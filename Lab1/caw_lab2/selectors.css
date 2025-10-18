@@ -1,0 +1,83 @@
+    /*qt 1_1*/
+*{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+    /*qt 1_2*/
+body{
+    background-color:#f4f4f4 ;
+}
+/*qt 1_3 */
+h1, h2 {
+text-align: center;
+color: #336699;
+}
+/*qt 1_4 */
+p{
+margin-bottom: 1em;
+}
+/*qt 2_1 */
+#special{
+    background-color:#fffacd ;
+    padding: 10px;
+}
+/*qt 2_2 */
+.hello{
+    color:#28a745 ;
+    font-weight: bold;
+}
+/*qt 3_1 */
+div.main-content>h2,
+div.ai-tools>h2{
+text-transform: uppercase;
+}
+/*qt 3_2 */
+div.ai-tools li{
+    list-style-type: square;
+}
+/*qt 3_3 */
+div.ai-tools ul{
+    padding-left: 20px;
+}
+/*qt 4_1 */
+input[type="text"]{
+    border: 1px solid #ccc ;
+    padding:8px;
+    
+}
+/*qt 4_2 */
+input[type="submit"]{
+ background-color: #007bff;
+ color: white;
+}
+/*qt 5_1 */
+a {
+  color: #007bff;
+}
+
+/*qt 5_2 */
+a:hover{
+    text-decoration:none;
+    color:#007bff;
+}
+/*qt 5_3*/
+a:visited{
+    color: #6c757d;
+}
+/*5_4 The purpose of the :focus pseudo-class is to select and style the element that gets focus */
+/*qt 5_5*/
+input:focus {
+  border: 2px solid blue;
+}
+/*qt 6_1*/
+div.ai-tools li.hello {
+  font-style: italic;
+}
+/*qt 6_2*/
+footer h1{
+    font-size: 1.2em;
+}
+h1{
+    font-size: 2em;
+}
+
